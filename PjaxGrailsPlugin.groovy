@@ -9,9 +9,7 @@ class PjaxGrailsPlugin {
 
     def documentation = "http://grails.org/plugin/pjax"
 
-//    def license = "APACHE"
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def license = "APACHE"
+    def issueManagement = [system: "GitHub", url: 'https://github.com/dongwq/grails-pjax/issues']
+    def scm = [url: 'https://github.com/dongwq/grails-pjax']
 }
