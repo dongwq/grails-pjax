@@ -1,2 +1,5 @@
-
 /target
+*.log
+*.zip
+plugin.xml
+web-app/WEB-INF
