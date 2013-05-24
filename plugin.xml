@@ -1,16 +1,16 @@
-<plugin name='pjax' version='0.1' grailsVersion='2.1 &gt; *'>
+<plugin name='pjax' version='0.0.1' grailsVersion='2.1 &gt; *'>
   <author>Jhon dong</author>
+  <authorEmail>dongwqs at sina dot com</authorEmail>
   <title>Pjax Plugin</title>
   <description>Brief summary/description of the plugin.
-
-https://github.com/welefen/pjax
+grailsy the pjax of https://github.com/welefen/pjax
 
 </description>
   <documentation>http://grails.org/plugin/pjax</documentation>
   <type>PjaxGrailsPlugin</type>
   <resources>
-    <resource>PjaxFilters</resource>
     <resource>PjaxResources</resource>
+    <resource>filters.PjaxFilters</resource>
   </resources>
   <repositories>
     <repository name='grailsCentral' url='http://grails.org/plugins' />
@@ -18,7 +18,12 @@ https://github.com/welefen/pjax
     <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
   </repositories>
   <dependencies />
-  <plugins />
+  <plugins>
+    <runtime>
+      <plugin group='org.grails.plugins' name='resources' version='1.1.6' />
+      <plugin group='org.grails.plugins' name='jquery' version='1.8.3' />
+    </runtime>
+  </plugins>
   <runtimePluginRequirements />
   <behavior />
 </plugin>

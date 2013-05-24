@@ -1,6 +1,6 @@
 class PjaxGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "0.0.1"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.1 > *"
     // the other plugins this plugin depends on
@@ -13,11 +13,11 @@ class PjaxGrailsPlugin {
     // TODO Fill in these fields
     def title = "Pjax Plugin" // Headline display name of the plugin
     def author = "Jhon dong"
-    def authorEmail = ""
+    def authorEmail = "dongwqs at sina dot com"
     def description = '''\
 Brief summary/description of the plugin.
-
-https://github.com/welefen/pjax
+give grails the pjax .
+ref of https://github.com/welefen/pjax
 
 '''
 
