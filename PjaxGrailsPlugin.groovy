@@ -4,7 +4,7 @@ class PjaxGrailsPlugin {
 
     def title = "Pjax Plugin"
     def author = "Jhon dong"
-    def authorEmail = "dongwqs at sina dot com"
+    def authorEmail = "dongwqs@sina.com"
     def description = 'Give Grails the pjax . ref of https://github.com/welefen/pjax'
 
     def documentation = "http://grails.org/plugin/pjax"
