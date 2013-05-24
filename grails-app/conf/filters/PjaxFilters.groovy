@@ -6,12 +6,6 @@ class PjaxFilters {
             before = {
                 request.isPjax = request.getHeader("X-PJAX")
             }
-            after = { Map model ->
-
-            }
-            afterView = { Exception e ->
-
-            }
         }
     }
 }
