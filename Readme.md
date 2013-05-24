@@ -1,10 +1,11 @@
 
-
 ## Grails pjax plugins
 
 usage as below:
 
 in a page or layout header add code:
+
+
         <g:render template="/pjaxBind" plugin="pjax"/>
 
 
