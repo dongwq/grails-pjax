@@ -1,6 +1,7 @@
 // jquery.pjax.js
 // copyright chris wanstrath
 // https://github.com/defunkt/jquery-pjax
+// v1.7.0  #by John Dong dongwqs@sina.com
 
 (function($){
 

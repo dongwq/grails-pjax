@@ -1,11 +1,11 @@
 class PjaxGrailsPlugin {
-    def version = "0.0.1"
+    def version = "0.0.2"
     def grailsVersion = "2.0 > *"
 
-    def title = "Pjax Plugin"
-    def author = "Jhon dong"
+    def title = "Grails Pjax Plugin"
+    def author = "John Dong"
     def authorEmail = "dongwqs@sina.com"
-    def description = 'Give Grails the pjax . ref of https://github.com/welefen/pjax'
+    def description = 'Grails Pjax Plugin cloud help you use pjax in Grails.See more https://github.com/dongwq/grails-pjax'
 
     def documentation = "http://grails.org/plugin/pjax"
 
