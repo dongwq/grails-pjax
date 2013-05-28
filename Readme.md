@@ -13,13 +13,12 @@ see more, Please go https://github.com/welefen/pjax
 
 First, the pjax function is enabled on a tag , a button and a form. see code as pjaxHeader showed.
 
-1. load resource, in a page or layout header add code:
+1. load resource: in a page or layout header add code:
 
         <g:render template="/pjaxHeader" plugin="pjax"/>
 
     this will load the jquery.pjax.js file and give the default usage of pjax as a standand ref .
-2. config in content page
-   in a pjax content file use meta:
+2. config content page: put the code below in a pjax content file:
 
         <meta name="layout" content="${request.isPjax?'':'main'}">
 
