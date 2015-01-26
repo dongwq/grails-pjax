@@ -1,8 +1,7 @@
 Grails Pjax Plugin
 =========================
-Grails Pjax Plugin cloud help you use pjax in Grails.
-
-The pjax function is enabled on a 'A' tag , a button and a form. see code in pjaxHeader.
+Pjax in Grails.
+Pjax is similar to (turbolinks)[https://github.com/rails/turbolinks],works on a 'A' tag , a button and a form. see demo code in _pjaxHeader grails templtate file.
 
 ##What is Pjax?
 Pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.
@@ -12,9 +11,8 @@ see more, Please go https://github.com/welefen/pjax
 ##Why Pjax?
 just load a containter from remote with ajax ? 
 Yes.But more than that.
-no more loading of css and js files . No page flash when refresh. u can add loading animation. 
-Last but import, it shows rightly when no push state support in the browser!
-
+No more loading of css and js files . No page flash when refresh. u can add loading animation. 
+Last but important, it shows rightly when no push state support in the browser!
 
 ##Usage
 
@@ -30,6 +28,11 @@ First, the pjax function is enabled on a tag , a button and a form. see code as 
         <meta name="layout" content="${request.isPjax?'':'main'}">
 
 ##Change Log
+
+
+###v0.0.5@2015-01-26
+- Updated the jquery.pjax.js to version 1.9.3
+- clean project
 
 ###v0.0.2@2013-05-28
 - Updated the jquery.pjax.js to version 1.7.0

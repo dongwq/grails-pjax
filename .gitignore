@@ -3,3 +3,7 @@
 *.zip
 plugin.xml
 web-app/WEB-INF
+*.iml
+.classpath
+.settings
+.project
