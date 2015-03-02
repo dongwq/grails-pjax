@@ -1,4 +1,4 @@
-
+package filters
 class PjaxFilters {
 
     def filters = {
