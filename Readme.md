@@ -6,7 +6,7 @@ Pjax is similar to (turbolinks)[https://github.com/rails/turbolinks],works on a 
 ##What is Pjax?
 Pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.
 
-see more, Please go https://github.com/welefen/pjax
+see more https://github.com/defunkt/jquery-pjax or go https://github.com/welefen/pjax
 
 ##Why Pjax?
 just load a containter from remote with ajax ? 
@@ -29,6 +29,12 @@ First, the pjax function is enabled on a tag , a button and a form. see code as 
 
 ##Change Log
 
+###v0.0.8@2015-03-02
+- Updated the jquery.pjax.js to version 1.9.4
+- update jquery and resource plugin by @kinwahlai 
+
+        runtime ":jquery:1.11.1"
+        runtime ":resources:1.2.14"
 
 ###v0.0.5@2015-01-26
 - Updated the jquery.pjax.js to version 1.9.3

@@ -2,7 +2,7 @@
  * Copyright 2012, Chris Wanstrath
  * Released under the MIT License
  * https://github.com/defunkt/jquery-pjax
- // v1.9.3  #versioin added by John Dong dongwqs@sina.com
+ // v1.9.4  #versioin added by John Dong dongwqs@sina.com
  */
 
 (function($){
