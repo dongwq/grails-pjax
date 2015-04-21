@@ -24,6 +24,8 @@ grails.project.dependency.resolution = {
 //            export = false
 //        }
 
+        compile ":migrate2-grails3:0.3.2"
+
         build ':release:3.0.1', ':rest-client-builder:1.0.3', {
            export = false
         }
