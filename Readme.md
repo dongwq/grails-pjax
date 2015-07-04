@@ -29,6 +29,9 @@ First, the pjax function is enabled on a tag , a button and a form. see code as 
 
 ##Change Log
 
+###v0.0.9@2015-07-04
+- Updated the jquery.pjax.js to version 1.9.6
+
 ###v0.0.8@2015-03-02
 - Updated the jquery.pjax.js to version 1.9.4
 - update jquery and resource plugin by @kinwahlai 
