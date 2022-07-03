@@ -8,7 +8,7 @@ Pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing 
 
 see more https://github.com/defunkt/jquery-pjax or go https://github.com/welefen/pjax
 
-##Why Pjax?
+## Why Pjax?
 just load a containter from remote with ajax ? 
 Yes.But more than that.
 No more loading of css and js files . No page flash when refresh. u can add loading animation. 
